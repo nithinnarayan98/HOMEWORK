@@ -6,7 +6,7 @@ function sts(s1,s2,s3,s4,s5,s6 )
     }
     else
     
-        return "pass"
+        return "pass";
     }
 
     function gr(a,b)
@@ -34,7 +34,7 @@ function sts(s1,s2,s3,s4,s5,s6 )
             return "c";
         }
         if(p<65 && p>=60){
-            return "d+;"
+            return "d+";
         }
         if(p<60 && p>=55){
             return "d";
@@ -45,7 +45,7 @@ function sts(s1,s2,s3,s4,s5,s6 )
         if(p<50 && p>=45){
             return "e";
         }
-        else return "f"
+        else return "f";
         }
 
 function gm()
@@ -110,7 +110,7 @@ document.getElementById("res23").innerHTML=x21;
 var s6=gr(x20,x21);
 document.getElementById("res24").innerHTML=s6;
 
-var p=sts(s1,s2,s3,s4,s5,s6 )
+var p=sts(s1,s2,s3,s4,s5,s6 );
 document.getElementById("status").innerHTML=p;
 document.getElementById("res25").innerHTML=p;
 
